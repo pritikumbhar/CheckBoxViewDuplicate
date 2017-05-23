@@ -72,7 +72,7 @@ class PushBannerView: UIView {
         
         self.layer.zPosition  = CGFloat(MAXFLOAT)
         self.isExclusiveTouch = true
-        
+        print("second commit")
         APP.addSubview(PUSH_VIEW!)
         self.imageView.layer.cornerRadius   = CORNER_RADIUS
         self.imageView.layer.masksToBounds  = true

@@ -94,7 +94,8 @@ Pod::Spec.new do |s|
 
 #  s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-    s.source_files = ".{*}"
+    s.source_files = '*.{swift,xib}'
+#s.source_files = "CheckBoxView/**/*.{swift}"
 
 #  s.exclude_files = "Classes/Exclude"
 
